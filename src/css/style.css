@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.container {
+    font-family: "Public Sans", serif;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+
+.imagem {
+    height: 430px;
+    width: 335px;
+    background-size: cover;
+    border: 1px solid #fff;
+}
+
+.imagem:hover {
+    border: 1px solid black;
+}
+
+.informacao {
+    position: relative;
+    top: 328px;
+    left: 26px;
+    max-width: 300px;
+}
+
+.rome {
+    background-image: url(../imagens/rome.png);
+}
+
+.boat {
+    background-image: url(../imagens/boat.png);
+}
+
+.sand {
+    background-image: url(../imagens/sand-and-sea.png)
+}
+
+.starry {
+    background-image: url(../imagens/starry-night.png);
+}
